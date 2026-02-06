@@ -1,0 +1,127 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtual Environments
+venv/
+env/
+ENV/
+.venv
+.conda/
+conda-meta/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# PyCharm
+.idea/
+*.iml
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+*.db
+
+# Training outputs and results
+logs/
+runs/
+outputs/
+results/
+checkpoints/
+wandb/
+tensorboard/
+tb_logs/
+
+# Model checkpoints (unless tracked by LFS)
+# Uncomment if you don't want to track these even with LFS
+# *.pth
+# *.pt
+# *.ckpt
+
+# Data directories
+data/
+datasets/
+videos/
+recordings/
+*.mp4
+*.avi
+*.mov
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.bak
+*.cache
+
+# Configuration files with secrets
+.env
+.env.local
+secrets.yaml
+credentials.json
+
+# Coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pytest
+.pytest_cache/
+
+# Profiling
+*.prof
+*.lprof
+
+# C/C++ build artifacts
+*.o
+*.out
+*.so
+*.dylib
+*.dll
+
+# Assets
+assets/
+
+# Exception: Track isaacgym bindings
+!python/isaacgym/_bindings/
+!python/isaacgym/_bindings/**
